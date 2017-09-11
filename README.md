@@ -96,7 +96,7 @@ $ egg-bin debug
 - all `egg-bin dev` options is accepted.
 - `--debug-port=6666` worker debug port, default to 9229(inspect) or 5858(debug), also has `--inspect` alias.
 - `--debug-brk` whether stop at the top of worker initial script, also has `--brk` alias.
-- `--debug-agent=7777` whether debug agent, could pass Number as debugPort, default to 9227(inspect) or 5856(debug), also has `--agent` alias.
+- `--debug-agent=7777` whether debug agent, could pass Number as debugPort, default to 9227(inspect) or 5856(debug).
 - `--debug-agent-brk` whether stop at the top of agent initial script.
 
 ### test
